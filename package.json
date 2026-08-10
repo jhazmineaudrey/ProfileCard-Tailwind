@@ -1,0 +1,17 @@
+{
+  "name": "profilecard-tailwind",
+  "version": "1.0.0",
+  "description": "Shows profile cards built using HTML and Tailwind CSS.",
+  "license": "GPL-3.0-only",
+  "author": "Jhazmine Audrey Perez",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": " nodemon server", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
