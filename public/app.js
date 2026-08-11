@@ -2,7 +2,7 @@ const card = document.querySelector(".cards");
 const darkBtn = document.querySelector("#DARK-MODE-TOGGLE");
 const body = document.querySelector("body");
 
-card.addEventListener("click", () => {
+card.addEventListener("click", (event) => {
     card.classList.toggle("flipped");
 });
 

@@ -56,7 +56,9 @@
     --color-gray-600: oklch(44.6% 0.03 256.802);
     --color-gray-700: oklch(37.3% 0.034 259.733);
     --color-mauve-200: oklch(92.2% 0.005 325.62);
+    --color-mauve-600: oklch(43.5% 0.029 321.78);
     --color-mauve-700: oklch(36.4% 0.029 323.89);
+    --color-mist-600: oklch(45% 0.017 213.2);
     --color-mist-800: oklch(27.5% 0.011 216.9);
     --color-black: #000;
     --color-white: #fff;
@@ -821,11 +823,23 @@
   .dark\:bg-gray-700:where([data-theme=dark], [data-theme=dark] *) {
     background-color: var(--color-gray-700);
   }
+  .dark\:bg-mauve-600:where([data-theme=dark], [data-theme=dark] *) {
+    background-color: var(--color-mauve-600);
+  }
   .dark\:bg-mauve-700:where([data-theme=dark], [data-theme=dark] *) {
     background-color: var(--color-mauve-700);
   }
+  .dark\:bg-mist-600:where([data-theme=dark], [data-theme=dark] *) {
+    background-color: var(--color-mist-600);
+  }
   .dark\:bg-mist-800:where([data-theme=dark], [data-theme=dark] *) {
     background-color: var(--color-mist-800);
+  }
+  .dark\:bg-none:where([data-theme=dark], [data-theme=dark] *) {
+    background-image: none;
+  }
+  .dark\:p-1:where([data-theme=dark], [data-theme=dark] *) {
+    padding: var(--spacing);
   }
   .dark\:text-gray-50:where([data-theme=dark], [data-theme=dark] *) {
     color: var(--color-gray-50);
